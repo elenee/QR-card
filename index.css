@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #d5e1ef;
+}
+.card {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rectangle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  gap: 2rem;
+  padding: 1rem 1rem 1.9rem 1rem;
+  width: 320px;
+  height: 497px;
+
+  background: #ffffff;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  border-radius: 20px;
+}
+.qr-code img {
+  display: block;
+  border-radius: 1rem;
+  width: 100%;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    height: 129px;
+    left: 576px;
+    top: 480px;
+    gap: 1.4rem;
+}
+.text h1 {
+  height: 56px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #1f314f;
+  padding: 0 16px 0 16px;
+}
+.text p {
+  height: 57px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1875px;
+  color: #7d889e;
+  padding: 0 32px 0 32px;
+}
